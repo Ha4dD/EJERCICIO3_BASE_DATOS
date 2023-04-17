@@ -70,3 +70,17 @@ INSERT INTO pagos (id_cliente,monto_total,metodo_pago) VALUES
 (3,50234,'PAYPAL'),
 (4,79349,'CONTRA ENTREGA'),
 (5,35000,'PAYPAL');
+
+UPDATE cliente SET nombre = 'ALDAIR' WHERE id_cliente = 1;
+UPDATE cliente SET nombre = 'EZIO' WHERE id_cliente = 2;
+UPDATE cliente SET nombre = 'DANTE' WHERE id_cliente = 3;
+UPDATE cliente SET nombre = 'CAMILO' WHERE id_cliente = 4;
+UPDATE cliente SET nombre = 'MINO' WHERE id_cliente = 5;
+
+
+DELETE FROM pedidos WHERE id_pedidos = 1;
+DELETE FROM pedidos WHERE id_pedidos = 2;
+DELETE FROM pedidos WHERE id_pedidos = 3;
+DELETE FROM pedidos WHERE id_pedidos = 4;
+DELETE FROM pedidos WHERE id_pedidos = 5;
+
